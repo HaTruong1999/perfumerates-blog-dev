@@ -16,8 +16,15 @@ const nextConfig = {
         return {
           hostname: url.hostname,
           protocol: url.protocol.replace(':', ''),
+          pathname: "/**",
         }
       }),
+      {
+        protocol: 'https',
+        hostname: '*.vercel-storage.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   reactStrictMode: true,
