@@ -4,5 +4,8 @@
       "path": "/api/payload-jobs/run",
       "schedule": "0 0 * * *"
     }
-  ]
+  ],
+  "functions": {
+    "regions": ["sin1"]
+  }
 }
