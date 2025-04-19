@@ -6,6 +6,8 @@
     }
   ],
   "functions": {
-    "regions": ["sin1"]
+    "api/**/*": {
+      "regions": ["sin1"]
+    }
   }
 }
